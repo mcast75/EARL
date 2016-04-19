@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/trin_igvc/catkin_ws/src/rplidar_ros/src/client.cpp
+ros/ros.h
+/home/trin_igvc/catkin_ws/src/rplidar_ros/src/ros/ros.h
+sensor_msgs/LaserScan.h
+/home/trin_igvc/catkin_ws/src/rplidar_ros/src/sensor_msgs/LaserScan.h
+

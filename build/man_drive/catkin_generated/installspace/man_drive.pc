@@ -1,0 +1,8 @@
+prefix=/home/trin_igvc/catkin_ws/install
+
+Name: man_drive
+Description: Description of man_drive
+Version: 0.0.0
+Cflags: -I/home/trin_igvc/catkin_ws/install/include
+Libs: -L/home/trin_igvc/catkin_ws/install/lib -lman_drive
+Requires: message_runtime roscpp rosserial_msgs sensor_msgs std_msgs topic_tools joy
